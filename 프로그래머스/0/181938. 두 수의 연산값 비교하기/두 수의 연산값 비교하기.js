@@ -1,5 +1,7 @@
 function solution(a, b) {
-    var answer = [[a,b].join(''), (2 * a * b)].sort((a,b) => b -a);
-    return Number(answer[0])
+    numA = Number([a,b].join(''));
+    numB = (2 * a * b)
+    
+    return numA > numB ? numA : numB
 
 }
