@@ -1,10 +1,10 @@
 function solution(n) {
-    let num = 1;
+    let num = 6;
     while(true){
-        if(num % n === 0 && num % 6 === 0){
+        if(num % n === 0){
             break
         }
-        num += 1
+        num += 6
     }
     return num / 6
 }
