@@ -3,5 +3,4 @@ function solution(myString, pat) {
              {acc.push(myString.split('').slice(idx, idx + pat.length).join('')) 
               return acc}, [])
    return num.filter(v =>v==pat).length
-
 }
